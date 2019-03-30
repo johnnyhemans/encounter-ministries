@@ -151,7 +151,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 1rem 0.5rem 1rem;
+    padding: 1rem;
     width: 100%;
 }
 
@@ -174,5 +174,9 @@ h1 {
 
     .event-img {
         border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    .event-content {
+        border-radius: 0rem 0rem 1rem 1rem;
     }
 }
