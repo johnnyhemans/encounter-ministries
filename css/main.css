@@ -12,6 +12,13 @@ body {
     padding-bottom: 3rem;
   }
 
+  @media (max-height: 381px) {
+    .navbar-nav > li > a {
+      padding-top: 0px;
+      padding-bottom: 0.3em;
+      }
+     }
+
   #social {
     display: flex;
     flex-direction: row;
@@ -29,9 +36,7 @@ body {
   -------------------------------------------------- */
 
   .jumbotron {
-    padding: 0px 15%;
-    margin-bottom: 3rem;
-    height: calc(80vh - 3rem);
+    padding: 15% 0px;
     background-image: url('../img/background-image2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,8 +44,10 @@ body {
     background-attachment: fixed;
   }
 
-  .jumbotron .container {
-    padding-top: 20%;
+  @media (max-width: 769px) {
+    .jumbotron {
+      background-attachment: initial;
+    }
   }
 
   .jumbotron .container h1 {
