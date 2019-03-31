@@ -13,13 +13,23 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-right: 3rem;
+    margin-right: 1rem;
 }
 
 #social li a {
     text-decoration: none;
     color: white;
-    padding-right: 1rem;
+}
+
+@media (max-height: 381px) {
+    .navbar-nav > li > a {
+        padding-top: 0px;
+        padding-bottom: 0.3em;
+    }
+
+    #social li a {
+        padding-right: 0.5em;
+    }
 }
 
 /* JUMBOTRON
